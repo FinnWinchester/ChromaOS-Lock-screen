@@ -1,0 +1,83 @@
+@chromaos-lock-screen-height: 35px;
+@chromaos-lock-screen-border-radius: 8px;
+
+.chromaos-lock-screen {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 9999999 !important;
+	-webkit-animation: fadein 200ms; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 200ms; /* Firefox < 16 */
+      -ms-animation: fadein 200ms; /* Internet Explorer */
+       -o-animation: fadein 200ms; /* Opera < 12.1 */
+          animation: fadein 200ms;
+
+	@keyframes fadein {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+	/* Firefox < 16 */
+	@-moz-keyframes fadein {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+	/* Safari, Chrome and Opera > 12.1 */
+	@-webkit-keyframes fadein {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+	/* Internet Explorer */
+	@-ms-keyframes fadein {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+	/* Opera < 12.1 */
+	@-o-keyframes fadein {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	&-image {
+		filter: blur(2px);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 9999998;
+	}
+
+	&-content {
+		height: 100%;
+		width: 100%;
+		z-index: 9999999;
+		position: absolute;
+	}
+}

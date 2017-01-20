@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.chromaos-lock-screen {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9999999 !important;
+  -webkit-animation: fadein 200ms;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 200ms;
+  /* Firefox < 16 */
+  -ms-animation: fadein 200ms;
+  /* Internet Explorer */
+  -o-animation: fadein 200ms;
+  /* Opera < 12.1 */
+  animation: fadein 200ms;
+  /* Firefox < 16 */
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.chromaos-lock-screen-image {
+  filter: blur(2px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999998;
+}
+.chromaos-lock-screen-content {
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+  position: absolute;
+}
+.chromaos-lock-screen-image {
+  background-image: url('../imgs/default-bg-lock-screen.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.chromaos-default-lock-screen-content-wrapper {
+  top: 0 !important;
+}
+.chromaos-default-lock-screen-default-content {
+  text-align: center;
+  width: 350px;
+  height: 200px;
+  margin: 100px auto 0;
+}
+.chromaos-default-lock-screen-default-content-title {
+  color: white;
+}
+.chromaos-default-lock-screen-default-content-actions {
+  margin-top: 30px;
+}
+.chromaos-default-lock-screen-default-content .avatar {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  border-radius: 999px;
+}
+.chromaos-default-lock-screen-default-content .avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
