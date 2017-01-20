@@ -2,6 +2,8 @@
 
 ChromaOS Lock Screen made for AngularJS by Finn Winchester.
 
+[Online demo](https://finnwinchester.github.io/ChromaOS-Lock-screen/).
+
 ### Installation
 Via Bower
 ```
