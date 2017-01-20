@@ -1,21 +1,21 @@
 {
-  "name": "chroma-os-core",
-  "description": "AngularJS directives for ChromaOS.",
+  "name": "chromaos-lock-screen",
+  "description": "AngularJS directives for ChromaOS Lock screen.",
   "main": "Gruntfile.js",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "authors": [
     "Finn Winchester"
   ],
   "license": "MIT",
   "keywords": [
-    "clash",
-    "royale",
-    "button",
+    "chromaos",
+    "lock",
+    "screen",
     "angular",
     "angularjs",
     "directive"
   ],
-  "homepage": "https://github.com/FinnWinchester/angular-clash-royale-button-directive",
+  "homepage": "https://github.com/FinnWinchester/ChromaOS-Lock-screen",
   "ignore": [
     "**/.*",
     "node_modules",
