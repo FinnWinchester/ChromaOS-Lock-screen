@@ -14,8 +14,8 @@ bower install chromaos-lock-screen --save
 
 Include files in your ```index.html```:
 ```
-<script src="bower_components/chromaos/dist/js/ChromaOSLockScreen.min.js"></script>
-<link href="bower_components/chromaos/dist/css/ChromaOSLockScreen.min.css" rel="stylesheet" />
+<script src="bower_components/chromaos-lock-screen/dist/js/ChromaOSLockScreen.min.js"></script>
+<link href="bower_components/chromaos-lock-screen/dist/css/ChromaOSLockScreen.min.css" rel="stylesheet" />
 ```
 
 Add ```ChromaOSLockScreen``` to your AngularJS project:
